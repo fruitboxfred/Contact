@@ -3,8 +3,8 @@ from web3 import Web3
 #to connect to ganache
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
 chain_id = 1337
-address = "0x1F088bD6d609072df928AF12C7dF23D8d9762202"
-private_key = "42c646036a40d0b3bf00f4cdd1a630ca66d3cbb420037a6982fe1c2bbcda286d"
+address = "<enter your address"
+private_key = "<Enter your private key>"
 
 
 acct = w3.eth.account.privateKeyToAccount(private_key)
